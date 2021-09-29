@@ -1,0 +1,23 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    background-color: #ccc;
+    margin:auto;
+}
+
+#canvas {
+    position: absolute;
+    z-index: 2;
+}
+
+.logs {
+    background-color: #000;
+    color: #fff;
+    height: 30vh;
+    overflow-y: scroll;
+    padding:1rem;
+}
